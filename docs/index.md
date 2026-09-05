@@ -1,21 +1,33 @@
-# 공부 기록에 오신 것을 환영합니다 👋
+# 안녕하세요, 신지후입니다 👋
 
-이 사이트는 대학교 전공 및 교양 공부 내용을 정리하고, 매일의 학습 로그를 기록하기 위해 만든 개인 학습 노트입니다.
+[한 줄 소개를 입력하세요 — 예: "만들면서 배우는 걸 좋아하는 컴퓨터공학과 학생입니다."]
+{: .hero-tagline }
 
-## 사이트 구성
+[GitHub :fontawesome-brands-github:](https://github.com/jihu0629){ .md-button }
+[이메일 보내기 :fontawesome-solid-envelope:](mailto:jihuclocl@gmail.com){ .md-button .md-button--primary }
 
-- **[전공 공부](subjects/index.md)** — 과목별로 정리한 개념 노트, 요약, 문제 풀이
-- **[스터디 로그](log/index.md)** — 날짜별 학습 기록 (오늘 무엇을 공부했는지, 어려웠던 점, 다음 계획)
-- **[자료 & 링크](resources.md)** — 자주 참고하는 강의, 문서, 툴 모음
+## 최근 프로젝트
 
-## 이렇게 활용해보세요
+<div class="project-grid" markdown="1">
 
-1. 새 과목을 시작하면 `docs/subjects/` 아래에 새 `.md` 파일을 만들고 `mkdocs.yml`의 `nav`에 추가하세요.
-2. 매일 공부한 내용은 `docs/log/YYYY-MM-DD.md` 형식으로 기록하세요.
-3. 노트 안에서 중요한 개념은 아래처럼 강조 박스(admonition)를 활용할 수 있습니다.
+<div class="project-card" markdown="1">
+### 프로젝트 예시 A
+[프로젝트를 한 줄로 설명하세요]
 
-!!! tip "Tip"
-    같은 과목이라도 개념별로 소제목(`##`, `###`)을 나누면 나중에 검색할 때 훨씬 편합니다. 우측 상단 검색창에서 바로 찾을 수 있어요.
+`Python` `Flask` `PostgreSQL`
 
-!!! note "이 사이트는 로컬에서 실행 중입니다"
-    `mkdocs serve` 명령으로 로컬 미리보기 서버가 열려 있습니다. 내용을 수정하고 저장하면 자동으로 새로고침됩니다.
+[자세히 보기 →](projects/project-a.md)
+</div>
+
+<div class="project-card" markdown="1">
+### 프로젝트 예시 B
+[프로젝트를 한 줄로 설명하세요]
+
+`React` `TypeScript`
+
+[자세히 보기 →](projects/project-b.md)
+</div>
+
+</div>
+
+[전체 프로젝트 보기 →](projects/index.md)

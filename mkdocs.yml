@@ -1,5 +1,5 @@
-site_name: 공부 기록
-site_description: 대학생 공부 기록 노트
+site_name: 신지후 포트폴리오
+site_description: 신지후의 개발 포트폴리오
 site_author: Jihoo
 
 theme:
@@ -75,10 +75,15 @@ extra_javascript:
 
 nav:
   - 홈: index.md
-  - 전공 공부:
-      - 개요: subjects/index.md
-      - 예시 - 자료구조: subjects/data-structures.md
-  - 스터디 로그:
-      - 개요: log/index.md
-      - 2026-09-04: log/2026-09-04.md
-  - 자료 & 링크: resources.md
+  - 프로젝트:
+      - 개요: projects/index.md
+      - 프로젝트 예시 A: projects/project-a.md
+      - 프로젝트 예시 B: projects/project-b.md
+  - 소개: about.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jihu0629
+    - icon: fontawesome/solid/envelope
+      link: mailto:jihuclocl@gmail.com
