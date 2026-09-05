@@ -1,0 +1,45 @@
+.md-typeset h1 {
+  font-weight: 700;
+}
+
+.md-typeset table:not([class]) {
+  font-size: 0.85rem;
+}
+
+.hero-tagline {
+  font-size: 1.15rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: -0.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.project-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem 1.25rem;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.project-card:hover {
+  border-color: var(--md-primary-fg-color);
+  transform: translateY(-2px);
+}
+
+.project-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.project-card code {
+  font-size: 0.7rem;
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  margin: 0.15rem 0.2rem 0 0;
+  display: inline-block;
+}
