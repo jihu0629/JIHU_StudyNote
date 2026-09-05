@@ -1,5 +1,5 @@
 site_name: 신지후 포트폴리오
-site_description: 신지후의 개발 포트폴리오
+site_description: 신지후의 항공우주공학 포트폴리오
 site_author: Jihoo
 
 theme:
@@ -33,6 +33,7 @@ theme:
     - toc.follow
   icon:
     repo: fontawesome/brands/github
+    logo: fontawesome/solid/rocket
 
 extra_css:
   - stylesheets/extra.css
